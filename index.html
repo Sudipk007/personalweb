@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" coontent="width=device-width,initial-scale=1.0">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      />
+      <script src="https://kit.fontawesome.com/08a95cebb4.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="webpage.css">
+        <title>Personal Webpage</title>
+    </head>
+    <body>
+        <header id="header">
+            <nav id="nav">
+                <div class="nav-center">
+                    <div class="nav-header">
+                        <h1>Sudip's WebWorld</h1>
+                        <img id="logo" src="perb.jpg">
+                        <button class="nav-toggle">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+            
+           
+            
+                    <div class="link-container">
+                        <ul class="links">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Gallery">Gallery</a></li>
+                            <li><a href="#Skills">Skills</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <div id="content">
+            <section class="mainC" id="About">
+                <div class="aboutme">About<span>Me</span></div>
+                 <img src="pic.JPG">
+                <p>
+                    <b>Hi there! </b>I’m Sudip Karki, a passionate computer science graduate with an associate degree, continuously pushing boundaries in the tech world and beyond. My journey began with an early fascination for technology, and over the years, I’ve cultivated a deep interest in coding, problem-solving, and self-improvement.
+                    <br>
+                   <b> Future Goals</b>
+    As I look ahead, I’m planning to continue expanding my knowledge in full-stack development, cloud computing, and AI. I aim to build more meaningful projects that can solve real-world problems, whether it's through innovative software or impactful social media content.
+
+    I’m always eager to collaborate with like-minded individuals, whether it’s for tech projects, fitness journeys, or personal growth conversations. Let’s connect and create something amazing together!
+
+    Reach Out to Me: You can find me on GitHub, LinkedIn, or follow my Instagram page for motivational content. Looking forward to connecting with you!
+                </p>
+               
+            
+            <button>Learn More</button>
+
+        </section>
+
+            <section id="Skills">
+                
+                <div class="Skills"><span>My</span>Skills</div>
+                <img src="comskil.jpg">
+                <p> 
+                    Profound knowledge in java object oriented programming<br>
+                    Profound knowledge of Html, CSS and javascript<br>
+                    Profound Knowledge of Data Structure and Algorithm<br>
+                    Meaningful knowledge of use of python(object oriented programming)<br>
+                    Significant knowledge of Git,Github <br>
+                    Knowledge of Docker<br>
+                    Knowledge of Microsoft Office<br>
+                </p>
+            
+            </section>
+
+            <section id="Gallery">
+                <div class="Gallery"><span>My</span>Gallery</div>
+
+                <div class="slider">
+                   <div class="slides"> 
+                        <img src="pic.JPG">
+                        <img src="pic1.jpeg">
+                        <img src="pic2.jpeg">
+                        <img src="pic3.jpeg">
+                   </div>
+                   
+                        <button  class="btn" id="btn1" onclick="prevSlide()">&#10094</button>
+                        <button class="btn"  id="btn2" onclick="nextSlide()">&#10095</button>
+                        
+                </div>
+                <button id="imgview">View Images</button>
+                
+                
+            </section>
+
+            <section id="Contact">
+                <div class="Contact">Contact<span>Us</span></div>
+               <div class="c"> 
+                    <form class="textb">
+                        <div class="email">
+                            <label for="email">Email</label><br>
+                            <input type="email" id="email" name="emailname">
+                        </div>
+                        <div class="phone">
+                            <label for="phone">Phone Number(optional)</label><br>
+                            <input type="text" id="phone" name="phoneN">
+                        </div>
+                        <div class="text">
+                            <label for="comments">Send us Message</label><br>
+                            <textarea id="comments" name="comments" rows="5" cols="30" placeholder="Enter your comments here..."></textarea>
+                        </div>
+                        <button type="submit" id="submit">Send</button>
+                    </form>
+                    <aside class="side">
+                        <a href="https://www.facebook.com/sudip.addict" target="blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/soodipcuul/" target="blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/channel/UC7CzGV4FKzXHOdqPSi7dUHw" target="blank"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="https://github.com/Sudipk007"><i class="fa-brands fa-github"></i></a>
+                        
+                        <p>Email: Soodipkarki07@gmail.com</p>
+                        <p>Phone: 415-525-7231</p>
+                        <p>Address: California,USA</p>
+                    </aside>
+                </div>
+            </div>
+               
+            </section>
+           
+        </div>
+
+        <footer>
+           <div id="upbtn"><a class="scroll-link top-link" href="#header">
+            <i class="fas fa-arrow-up" ></i>
+          </a></div>
+            <p>copyright &copy SudipSinghKarki Empire <span id="date"></span> All rights reserved.</p>
+           
+        </footer>
+        
+        
+          <script src="personal.js"></script>
+    </body>
+
+</html>
